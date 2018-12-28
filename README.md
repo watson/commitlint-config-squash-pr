@@ -1,7 +1,7 @@
 # commitlint-config-squash-pr
 
 Sharable [`commitlint`] config for enforcing a maximum commit message
-header length, taking into accouunt the larger size of squashed PR
+header length, taking into account the larger size of squashed PR
 commit messages generated when using the "Squash and merge" button in
 GitHub PRs.
 
