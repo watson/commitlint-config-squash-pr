@@ -34,8 +34,8 @@ In this example we're extending the popular
 // commitlint.config.js
 module.exports = {
   extends: [
-    '@commitlint/config-conventional',
-    'squash-pr' // the commitlint-config- prefix is implied
+    'squash-pr', // the commitlint-config- prefix is implied
+    '@commitlint/config-conventional'
   ]
 }
 ```
