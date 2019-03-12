@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-squash-pr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sharable commitlint config enforcing a max commit message header length when squashing GitHub PRs",
   "main": "index.js",
   "dependencies": {},
@@ -43,7 +43,7 @@
     ]
   },
   "coordinates": [
-    55.778249,
-    12.593148
+    55.778268,
+    12.593177
   ]
 }
