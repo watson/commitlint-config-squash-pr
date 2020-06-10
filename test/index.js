@@ -3,7 +3,8 @@
 const assert = require('assert')
 const { execSync } = require('child_process')
 
-const orig = process.env.TRAVIS_PULL_REQUEST
+reset()
+
 const commitlint = './node_modules/.bin/commitlint --config test/commitlint.config.js'
 
 assert.doesNotThrow(test(10))
@@ -41,6 +42,5 @@ function genStr (len) {
 }
 
 function reset () {
-  if (orig) process.env.TRAVIS_PULL_REQUEST = orig
-  else delete process.env.TRAVIS_PULL_REQUEST
+  delete process.env.TRAVIS_PULL_REQUEST
 }
