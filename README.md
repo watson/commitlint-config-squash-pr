@@ -45,6 +45,7 @@ Read more about [Sharable configuration].
 ## Supported CI systems
 
 - Travis CI
+- Jenkins (Multibranch Pipelines)
 
 ## License
 
